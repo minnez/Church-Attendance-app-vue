@@ -10,8 +10,8 @@ const routes = [
     children:[
       {
         path: '',
-        name: 'home',
-        component: () => import('../views/HomeView.vue')
+        name: 'dashboard',
+        component: () => import('../views/Dashboard.vue')
       },
       {
         path: '/about',
@@ -35,7 +35,8 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  linkActiveClass: 'church-active-link'
 })
 
 export default router
