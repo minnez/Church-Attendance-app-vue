@@ -6,8 +6,8 @@
         <div class="navigation">
             <router-link to="/dashboard"><span>Dashboard</span> </router-link>
             <router-link to="/about"><span>Calender</span></router-link>
-            <router-link to="/attendance"><span>Attendance</span></router-link>
-            <router-link to="/member"><span>Add a member</span></router-link>
+            <router-link to="/overview"><span>Attendance</span></router-link>
+            <router-link to="/add_member"><span>Add a member</span></router-link>
         </div>
     </nav>
 </template>
@@ -61,6 +61,7 @@ header{
 }
 .navigation .church-active-link span{
     border-left: 3px solid #4444fa;
+    color: #4444fa6f;
 }
 
 </style>
